@@ -53,6 +53,7 @@ function readLines(filePath) {
 
 // ============================================================
 // FUNCTION 1: getShiftDuration
+// Convert start and end times to seconds, then subtract to get shift duration
 // ============================================================
 function getShiftDuration(startTime, endTime) {
   let startSeconds = timeToSeconds(startTime);
